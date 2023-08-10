@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 100vh;
+            border: 2px solid black;
+        }
+
+        .box {
+            height: 350px;
+            width: 500px;
+            border: 2px solid black;
+            display: flex;
+            margin: 5px;
+            position: absolute;
+            margin-left: 350px;
+            margin-top: 130px;
+        }
+
+        .box1 {
+            width: 49%;
+            height: 99%;
+            display: inline-block;
+            margin-top: 2px;
+            margin-left: 2px;
+            
+        }
+
+        .box2 {
+            height: 99%;
+            width: 50%;
+        }
+
+        .box3 {
+            height: 60%;
+            width: 100%;
+            border: 1px solid black;
+            margin-top: 2px;
+        }
+
+        .box4 {
+            height: 14%;
+            width: 100%;
+            justify-content: left;
+            display: inline-block;
+            margin-top: 2px;
+            border: 1px solid black;
+        }
+
+        .box5 {
+            height: 23.5%;
+            width: 100%;
+            border: 1px solid black;
+            margin-top: 2px;
+        }
+
+        .box4 a{
+            margin-left: 5px;            
+        }
+
+        .box5 p{
+            text-align: center;
+        }
+
+        p{
+            font-size: medium;
+            height: 5%;
+            width: 100%;  
+        }
+
+        .image {
+            height: 84%;
+            width: 100%;
+
+            display: flex;
+            position: absolute;
+            align: 20px;
+        }
+
+        .image img {
+            height: 10%;
+            width: 20%;
+            margin-left: 20px;
+            margin-top: 1px;
+        }
+
+        .box6 {
+            height: 25%;
+            width: 100%;          
+        }
+
+        .box7 {
+            height: 50%;
+            width: 100%;
+        }
+
+        .box8 {
+            height: 20%;
+            width: 100%;  
+        }
+
+        .username {
+            height: 20%;
+            width: 80%;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .passwd {
+            height: 20%;
+            width: 80%;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .login {
+            margin-top: 10px;
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        input {
+            width: 97%;
+            height: 100%;
+        }
+
+        button {
+            width: 50%;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        a{
+            color: blue;
+            font-size: small;
+            margin-left: 80px;
+            margin-top: 10px;
+        }
+
+        .img {
+            height: 100%;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .box8 img{
+            height: 60%;
+            width: 70%;
+            justify-content: center;
+            display: flex;
+            margin-left: 30px;           
+        }
+
+        .box8 a{
+            font-size: smaller;
+            
+        }
+
+        .box1 img{
+            height: 90%;
+            width: 90%;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box1">
+                <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW">
+            </div>
+            <div class="box2">
+                <div class="box3">
+                    <div class="box6">
+                        <div class="img">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png">
+                        </div>
+                    </div>
+                    <div class="box7">
+                        <div class="input">
+                            <div class="username">
+                                <input type="username" placeholder="username">
+                            </div>
+                            <div class="passwd">
+                                <input type="password" placeholder="password">
+                            </div>
+                            <div class="login">
+                                <button>LOGIN</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box8">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="">
+                            <a href="https://www.instagram.com/accounts/password/reset/">Forgot Password?</a>
+
+                    </div>
+                </div>
+                <div class="box4">
+                    <p>Don't you have an account?</p>
+                    <a href="https://www.instagram.com/accounts/emailsignup/">signup</a>
+
+                </div>
+                <div class="box5">
+                    <div class="para">
+                        <p>Get app</p>
+                    </div>
+                    <div class="image">
+                        <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png">
+                        <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

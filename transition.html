@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            background-color: black;
+            margin: 1px;
+            margin-top: 200px;
+            text-align: center;
+            font-size: 100px;
+            cursor: pointer;
+            transition: all 1s;
+            display: inline-block;
+            border: 50%;
+            }
+
+        .box:hover {
+            background-color: grey;
+            height: 150px;
+            width: 150px;
+            border-radius: 10%;
+            border: dashed darkgoldenrod;
+
+            transform: rotateY('45');
+            transform: rotate3d(50);
+            /* transform: skewX(-45deg);
+            transform: skewY(155deg); 
+            transform: rotate3d(360deg); */ 
+        }
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+        p{
+            color: aliceblue;
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">M</div>
+    <div class="box">O</div>
+    <div class="box">M</div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTriUH2oysDNqmmfK70DuN1USTV4QR9U7XheDwQe3cel-Gt8lHnmxBRJSUnhNFtrxlx6VA&usqp=CAU">
+    </div>
+    <div class="box">S</div>
+</body>
+</html>

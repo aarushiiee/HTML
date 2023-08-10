@@ -1,0 +1,11 @@
+ANIMATIONS
+
+"position relative" set krne se object move hoga 
+
+animation-name: frontend-d;
+            animation-duration: 4s;
+            animation-iteration-count: 3;
+            animation-timing-function: else-in;
+
+ 
+   @keyframes frontend-d{

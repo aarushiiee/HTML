@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+     .container{
+
+        height: 100vh;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .box{
+
+        height: 80%;
+        width: 30%;
+        border: 2px solid black;
+     }
+
+       #box1{
+
+        height: 70%;
+        border: 2px solid red;
+        
+        
+       }
+
+       #box2{
+
+        height: 10%;
+        border: 2px solid green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       #box3{
+
+        height: 18%;
+        border: 2px solid blue;
+       
+       }
+
+       .logo{
+
+        height: 20%;
+        width: 100%;
+        border: 2px dashed red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .input{
+
+          height: 50%;
+          border: 2px dashed green;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+       }
+
+       input{
+        padding: 5px;
+        margin: 5px;
+       }
+       
+       button{
+        padding: 5px;
+        margin: 5px;
+       }
+
+       .links{
+          height: 28%;
+          border: 2px dashed yellow;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+        
+       }
+
+       .links a{
+
+        text-decoration: none;
+        margin: 5px;
+       }
+
+       .getit{
+        height: 70%;
+        text-align: center;
+       } 
+
+       p{
+        text-align: center;
+        font-size: smaller;
+    
+       }  
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="box" id="image-box">
+
+            <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW" alt="" width="100%" height="100%">
+     
+        </div>
+        <div class="box">
+
+            <div id="box1">
+
+                <div class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="" width="60%" height="80%">
+                </div>
+
+                <div class="input">
+
+                    <input type="username" placeholder="username">
+                   <input type="password" placeholder="password">
+                   <button>LOGIN</button>
+                    
+                </div>
+
+                <div class="links">
+                    
+                    <span class="_ab37">Log in with Facebook</span>
+                    <a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
+                </div>
+            </div>
+
+            <div id="box2">
+                <p>Don't have an account?</p>
+                <a href="https://www.instagram.com/accounts/emailsignup/">Sign Up</a>
+            </div>
+
+            <div id="box3">
+                <p>Get the app.</p>
+                <div class="getit">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="" width="40%" height="50%">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="" width="40%" height="50%">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

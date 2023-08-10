@@ -1,0 +1,45 @@
+CSS DAY 1(day3)
+
+rowspan : merging
+
+CSS
+types 1. inline 2. internal 3. external
+
+1. inline CSS
+(used within the lines)
+drawback: a. coding works on DRY (do not repeat yourself)
+b. not readable
+
+2. internal
+spacing is given by padding and margin
+space outside the box : margin
+space inside the box : padding
+<style> 
+.h{
+color ;
+background-color;
+.
+.
+}
+p{
+color;
+fontsize;
+textalign justify;
+.
+}
+</style>
+
+
+</head>
+<body>
+<h1 class(h)></h1>
+
+
+STATIC BLOG PAGES
+HEADING
+Title
+Image
+Paragraph
+footer
+
+LAST PUSH GIT

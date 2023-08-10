@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            background-color: aquamarine;
+            animation-name: frontend-d;
+            animation-duration: 4s;
+            animation-iteration-count: 3;
+            animation-timing-function: else-in;
+            }
+
+            @keyframes frontend-d{
+              /*  from{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 4px;
+                    background-color: brown;
+                    border: 2px solid pink;
+                }
+                to{
+                    width: 800px;
+                    height: 800px;
+                    border-radius: 16px;
+                    background-color: lightsalmon;
+                    border: 2px dashed black;
+                }  */
+
+
+                
+            0%{
+                left: 0px;
+                top: 0px;
+                border-radius: 70%;
+            }
+            25%{
+                left: 400px;
+                top: 0px;
+                border-radius: 70%;
+                background-color: pink;
+            }
+            50%{
+                top: 400px;
+                left: 400px;
+                background-color: green;
+                border-radius:70%;
+            }
+            75%{
+                top: 400px;
+                left: 0px;
+                background-color: bisque;
+                border-radius: 70%;
+                border: dashed black;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                background-color: blueviolet;
+                border: dotted ;
+                border-radius: 70%;
+            }
+            }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="box"></div>
+    
+</body>
+</html>
